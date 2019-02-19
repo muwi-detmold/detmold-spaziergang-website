@@ -2,7 +2,7 @@
   <div class="phone-div">
     <img src="../assets/phone.png" alt="Smart Phone" id="phone"/>
     <div id="ds-app">
-    <iframe src="http://localhost:8082/">
+    <iframe src="https://detmold-spaziergang.uni-paderborn.de/phone">
 
     </iframe>
     </div>
