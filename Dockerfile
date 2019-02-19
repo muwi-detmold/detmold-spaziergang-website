@@ -22,8 +22,6 @@ RUN mkdir -p /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
 COPY --from=builder /app/dist/ /usr/share/nginx/html/
 
-COPY nginx_config/default.conf /etc/nginx/conf.d/default.conf
-
 # make all files belong to the nginx user
 RUN chown nginx:nginx /usr/share/nginx/html
 
