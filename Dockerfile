@@ -11,7 +11,7 @@ RUN mkdir -p /app
 WORKDIR /app
 COPY . .
 RUN npm install \
-    && npm build
+    && npm run build
 
 # 2. Step
 
