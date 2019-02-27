@@ -1,10 +1,10 @@
 <template>
-  <div class="phone-div">
-    <img src="../assets/phone.png" alt="Smart Phone" id="phone"/>
+  <div id="phone-div">
+    <img src="../assets/phone.png" alt="Phone"/>
     <div id="ds-app">
-    <iframe src="https://detmold-spaziergang.uni-paderborn.de/phone">
+      <iframe src="https://detmold-spaziergang.uni-paderborn.de/phone">
 
-    </iframe>
+      </iframe>
     </div>
   </div>
 </template>
@@ -18,27 +18,36 @@ export default {
 <style scoped lang="scss">
   #phone-div {
     position: relative;
+    text-align: left;
+    float: left;
+  }
+
+  #phone-div img {
+    height: 600px;
+    margin: 100px 0 0 50px;
+
   }
 
   #ds-app {
-    width: 377px;
-    height: 668px;
+    width: 253px;
+    height: 448px;
     position: absolute;
-    top: 200px;
-    left: calc(50% - 188px);
+    top: 176px;
+    left: 77px;
+
   }
 
   #ds-app iframe {
     border: none;
-    width: 100%;
-    height: 100%;
+    width: 125%;
+    height: 125%;
     overflow-y: hidden;
-  }
-
-  #phone {
-    position: relative;
-    top: 0;
-    width: 700px;
-    margin: 0 auto;
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.8);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.8);
+    -webkit-transform-origin: 0 0;
   }
 </style>
