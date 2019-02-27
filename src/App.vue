@@ -113,4 +113,19 @@
     margin: 30px 0 0 30px;
   }
 
+  @media only screen and (max-width: 1000px) {
+    div.right {
+      display: none;
+    }
+
+    div.left {
+      width: calc(100% - 100px);
+      float: left;
+    }
+
+    div.blue-box {
+      width: calc(100% - 240px);
+    }
+  }
+
 </style>
