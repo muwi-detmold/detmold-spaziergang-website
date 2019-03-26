@@ -39,15 +39,15 @@ export default {
 
   #ds-app iframe {
     border: none;
-    width: 125%;
-    height: 125%;
+    width: 167%;
+    height: 167%;
     overflow-y: hidden;
-    -ms-zoom: 0.75;
-    -moz-transform: scale(0.8);
+    -ms-zoom: 0.6;
+    -moz-transform: scale(0.6);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.8);
+    -o-transform: scale(0.6);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.8);
+    -webkit-transform: scale(0.6);
     -webkit-transform-origin: 0 0;
   }
 </style>
