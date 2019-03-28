@@ -108,6 +108,7 @@
     margin: 30px;
     border-radius: 20px;
     padding: 40px;
+      overflow-y: auto;
   }
 
   .logo {
