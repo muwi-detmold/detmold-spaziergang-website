@@ -2,7 +2,7 @@
   <div id="phone-div">
     <img src="../assets/phone.png" alt="Phone"/>
     <div id="ds-app">
-      <iframe src="https://detmold-spaziergang.uni-paderborn.de/phone">
+      <iframe src="https://detmold-spaziergang.uni-paderborn.de/phone/">
 
       </iframe>
     </div>
