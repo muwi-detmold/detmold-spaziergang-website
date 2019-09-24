@@ -24,7 +24,7 @@ export default {
 
   #phone-div img {
     height: 600px;
-    margin: 100px 0 0 50px;
+    margin: 15px 0 0 50px;
 
   }
 
@@ -32,22 +32,22 @@ export default {
     width: 253px;
     height: 448px;
     position: absolute;
-    top: 176px;
+    top: 96px;
     left: 77px;
 
   }
 
   #ds-app iframe {
     border: none;
-    width: 167%;
-    height: 167%;
+    width: 120%;
+    height: 120%;
     overflow-y: hidden;
-    -ms-zoom: 0.6;
-    -moz-transform: scale(0.6);
+    -ms-zoom: 0.83;
+    -moz-transform: scale(0.83);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.6);
+    -o-transform: scale(0.83);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.6);
+    -webkit-transform: scale(0.83);
     -webkit-transform-origin: 0 0;
   }
 </style>

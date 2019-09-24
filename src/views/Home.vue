@@ -6,8 +6,7 @@
       <div class="logo"></div>
       <Phone></Phone>
       <div id="app-stores">
-        <img src="../assets/Google_Play_badge.png" width="172"><br>
-        <img src="../assets/apple_badge.png" width="150"/>
+        <img src="../assets/QRCode.png" width="200">
       </div>
     </div>
     <div class="right" id="palais">
