@@ -4,7 +4,7 @@
 # 1. build the website
 # 2. run nginx
 #########################
-FROM node as builder
+FROM node:8 as builder
 LABEL maintainer="Daniel Röwenstrunk for Muwi Detmold"
 
 RUN mkdir -p /app
